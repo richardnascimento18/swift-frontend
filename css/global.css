@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+.swift-card {
+  background-color: #333;
+  border: none;
+  min-width: 680px;
+  padding: 0px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(255, 140, 0, 0.15);
+}
+
+.swift-card img {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ff9800;
+    font-style: italic;
+}
+
+.subtitle {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFEE;
+}
+
+.form-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFEE;
+    font-weight: 500;
+}
+
+.btn-orange {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    background-color: #ff9800;
+    color: #FFFFEE;
+    padding: 12px 24px;
+}
+
+.btn-orange:hover {
+    background-color: #fb8c00;
+    color: #FFFFEE;
+}
+
+.form-control {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form-control:focus {
+  background-color: #222;
+  color: #fff;
+  border-color: #ff9800;
+  box-shadow: none;
+}
