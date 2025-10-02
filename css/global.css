@@ -65,3 +65,179 @@ body {
   border-color: #ff9800;
   box-shadow: none;
 }
+
+.sidebar {
+  background: #232323;
+  min-height: 100vh;
+  width: 260px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar .logo {
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff8800;
+  letter-spacing: 2px;
+}
+.sidebar .menu {
+  flex: 1;
+  padding: 0 1.5rem;
+}
+.sidebar .menu .nav-link {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+.sidebar .menu .nav-link.active,
+.sidebar .menu .nav-link:hover {
+  background: #ff8800;
+  color: #181818;
+}
+.sidebar .profile-section {
+  padding: 1.5rem;
+  border-top: 1px solid #333;
+  background: #232323;
+}
+.profile-pic {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+  border: 2px solid #ff8800;
+}
+.profile-info {
+  flex: 1;
+}
+.profile-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+.profile-rating, .profile-ranking {
+  font-size: 0.95rem;
+  color: #ff8800;
+}
+.profile-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.profile-actions .btn {
+  flex: 1;
+  font-size: 0.95rem;
+}
+.main-content {
+  margin-left: 260px;
+  padding: 2.5rem 2rem;
+  min-height: 100vh;
+  background: #181818;
+}
+.dashboard-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ff8800;
+  margin-bottom: 0.5rem;
+}
+.dashboard-subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+.graph-block {
+  background: #232323;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+}
+.graph-title {
+  color: #ff8800;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.graph-placeholder {
+  width: 60px;
+  height: 60px;
+  background: #ff8800;
+  border-radius: 50%;
+  opacity: 0.2;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-orange {
+  color: #fd7e14;
+  font-weight: bold;
+}
+.ranking-table .profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.ranking-table th {
+  vertical-align: middle;
+}
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.dashboard-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.mission-card {
+  background: linear-gradient(135deg, #FFFFDD 0%, #FFBB91 100%);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: none;
+}
+.mission-divider {
+  height: 2px;
+  background: #FFBB91;
+  opacity: 0.6;
+  margin: 0.75rem 0;
+  border-radius: 1px;
+}
+.mission-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.mission-title {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #7c4d00;
+}
+.mission-description {
+  font-size: 1rem;
+  color: #6c757d;
+  max-width: 60%;
+  text-align: right;
+}
+.mission-lower {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 0.98rem;
+  color: #4e342e;
+}
+.highlight-orange {
+  color: #FF8800;
+  font-weight: 600;
+}

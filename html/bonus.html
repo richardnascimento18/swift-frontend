@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recompensas Swift</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <div class="sidebar d-flex flex-column">
+        <div>
+            <div class="logo">
+                <a href="./dashboard.html"><img src="../assets/logo_swift.svg" alt="Logo" class="logo-img w-100"></a>
+            </div>
+            <nav class="menu nav flex-column mt-3">
+                <a class="nav-link" href="./dashboard.html"><i class="bi bi-person-badge-fill me-2"></i>Métricas do Perfil</a>
+                <a class="nav-link" href="./ranking.html"><i class="bi bi-trophy-fill me-2"></i>Rankings</a>
+                <a class="nav-link" href="./mission.html"><i class="bi bi-flag-fill me-2"></i>Missões</a>
+                <a class="nav-link active" href="#"><i class="bi bi-gift-fill me-2"></i>Recompensas</a>
+            </nav>
+        </div>
+        <div class="profile-section d-flex flex-column">
+            <div class="d-flex align-items-center mb-2">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-pic">
+                <div class="profile-info">
+                    <div class="profile-name">Walker Dev</div>
+                    <div class="profile-rating"><i class="bi bi-star-fill"></i> 4.8</div>
+                    <div class="profile-ranking"><i class="bi bi-trophy-fill"></i> #12</div>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <button class="btn btn-outline-light btn-sm"><i class="bi bi-gear"></i></button>
+                <button class="btn btn-warning btn-sm" id="logout"><i class="bi bi-box-arrow-right"></i> Log Out</button>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="dashboard-title mb-2">Recompensas Swift</div>
+        <div class="dashboard-subtitle mb-4">
+            Ao completar <span class="highlight-orange">Missões</span> você pode ganhar <span class="highlight-orange">Recompensas</span>, e pega-las por aqui.
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Bonus Card 1 -->
+                    <div class="mission-card">
+                        <div class="mission-upper">
+                            <div class="mission-title">+0.2% Bônus</div>
+                            <div class="mission-description">
+                                Parabéns! Por ter completado um total de 20 missões, você conseguiu uma bonificação de 0.2% no final do mês vigente. Continue nos mostrando suas capacidades através de nosso sistema!
+                            </div>
+                        </div>
+                        <div class="mission-divider"></div>
+                        <div class="mission-lower">
+                            <div><strong>Mês Vigente:</strong> Fevereiro/2025</div>
+                            <div><strong>Status:</strong> Ganho</div>
+                        </div>
+                    </div>
+                    <!-- Bonus Card 2 -->
+                    <div class="mission-card">
+                        <div class="mission-upper">
+                            <div class="mission-title">Vale Compras R$100</div>
+                            <div class="mission-description">
+                                Você foi premiado com um vale compras de R$100 por ter alcançado o ranking Top 10 em Janeiro/2025. Aproveite para utilizar em nossa loja parceira!
+                            </div>
+                        </div>
+                        <div class="mission-divider"></div>
+                        <div class="mission-lower">
+                            <div><strong>Mês Vigente:</strong> Janeiro/2025</div>
+                            <div><strong>Status:</strong> Ganho</div>
+                        </div>
+                    </div>
+                    <!-- Bonus Card 3 -->
+                    <div class="mission-card">
+                        <div class="mission-upper">
+                            <div class="mission-title">Dia de Folga Extra</div>
+                            <div class="mission-description">
+                                Por ter mantido uma média de 5 estrelas em avaliações por 3 meses consecutivos, você ganhou um dia de folga extra para usar quando quiser!
+                            </div>
+                        </div>
+                        <div class="mission-divider"></div>
+                        <div class="mission-lower">
+                            <div><strong>Mês Vigente:</strong> Março/2025</div>
+                            <div><strong>Status:</strong> Ganho</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/logout.js"></script>
+</body>
+</html>

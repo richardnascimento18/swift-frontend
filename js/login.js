@@ -11,7 +11,7 @@ let onLogin = (event) => {
 
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     
-    if(!emailRegex.test(email)) {
+    if(!emailRegex.test(emailInput.value)) {
         alert("Por favor, insira um e-mail válido.");
         return;
     }
